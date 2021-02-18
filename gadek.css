@@ -28,6 +28,7 @@ body {
     font: 20px Spartan;
     line-height: 1.8;
     color: #3b3a3b;
+    position: relative;
 }
 
 p {
@@ -106,11 +107,25 @@ nav {
     top: 0;
 }
 
+.nav li{
+    float:left;
+}
+
 .navbar-nav li a:hover {
     color: #abaee6 !important;
 }
+.nav-item .active { 
+    background-color: rgba(255, 255, 255, .4); } 
 
-#firstDiv {
+#Who {
+    width: 100%;
+    height: 600px;
+    background-image: url('images/Artistic_rendering.svg');
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+#First {
     width: 100%;
     height: 600px;
     background-image: url('images/Artistic_rendering.svg');
@@ -131,7 +146,7 @@ nav {
     position: relative;
 }
 
-#margin_research {
+.margin_research {
     margin-top: 10px;
     margin-bottom: 45px;
     margin-left: 45px;

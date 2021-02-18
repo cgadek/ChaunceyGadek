@@ -102,10 +102,10 @@ p {
     top: 0px; */
 } 
 
-nav {
+/* nav {
     position: sticky;
     top: 0;
-}
+} */
 
 .nav li{
     float:left;
@@ -114,8 +114,8 @@ nav {
 .navbar-nav li a:hover {
     color: #abaee6 !important;
 }
-.nav-item .active { 
-    background-color: rgba(255, 255, 255, .4); } 
+/* .nav-item .active { 
+    background-color: rgba(255, 255, 255, .4); }  */
 
 #Who {
     width: 100%;
@@ -156,3 +156,4 @@ nav {
 .img_margin {
     margin-bottom: 10px;
 }
+.scrollspy { position: relative; height: 100px; margin-top: 10px; overflow: auto; }

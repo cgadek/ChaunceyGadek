@@ -1,0 +1,170 @@
+/* latin-ext */
+@font-face {
+    font-family: 'Spartan';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/spartan/v3/l7gAbjR61M69yt8Z8w6FZf9WoBxdBrHbuV6HABLPepqTef25Xw.woff) format('woff');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Spartan';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/spartan/v3/l7gAbjR61M69yt8Z8w6FZf9WoBxdBrHbuV6JABLPepqTef0.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+
+#Who {
+    font: 44px Spartan;
+    line-height: 1.8;
+    color: #3b3a3b;
+}
+
+body {
+    font: 20px Spartan;
+    line-height: 1.8;
+    color: #3b3a3b;
+    position: relative;
+}
+
+p {
+    font-size: 16px;
+}
+.caption {
+    font-size: 10px;
+    text-align: left;
+    width: 450px;
+    margin-left: 100px;
+    margin-top: 5px;
+}
+.margin {
+    margin-bottom: 45px;
+    /* margin-left: 45px; */
+    /* margin-right: 45px; */
+}
+
+#whoMargin {
+    margin-bottom: 5px;
+}
+
+.bg-1 {
+    background-color: #8093b1;
+    /* Dark Pastel Green */
+    color: #ffffff;
+}
+
+.bg-2 {
+    background-color: #dad3c2;
+    /* light gray */
+    color: #302e2e;
+}
+
+.bg-3 {
+    background-color: #a8b8c2;
+    /* White */
+    color: #555555;
+}
+
+.bg-4 {
+    background-color: #c6e3ec;
+    /* Black Gray */
+    color: rgb(78, 75, 75);
+}
+
+.bg-6 {
+    /* background-image: url('images/footer.jpeg'); */
+    background-color: #837c7c; 
+    
+    color: rgb(68, 67, 67);
+}
+
+.bg-5 {
+    background-color: #dfdffa;
+    /* Black Gray */
+    color: rgb(54, 53, 63);
+}
+
+.container-fluid {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.navbar {
+    color: #c3d1e0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 45px;
+    font-size: 12px;
+    letter-spacing: 5px;
+    /* position: fixed;
+    top: 0px; */
+} 
+
+/* nav {
+    position: sticky;
+    top: 0;
+} */
+
+.nav li{
+    float:left;
+}
+
+.navbar-nav li a:hover {
+    color: #abaee6 !important;
+}
+/* .nav-item .active { 
+    background-color: rgba(255, 255, 255, .4); }  */
+
+#Who {
+    width: 100%;
+    height: 600px;
+    background-image: url('images/Artistic_rendering.svg');
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+#First {
+    width: 100%;
+    height: 600px;
+    background-image: url('images/Artistic_rendering.svg');
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+#footerDiv {
+    width: 100%;
+    height: 250px;
+    background-image: url('images/footer.jpg');
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+.center {
+    height: 200px;
+    position: relative;
+}
+
+.margin_research {
+    margin-top: 10px;
+    margin-bottom: 45px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.img_margin {
+    margin-bottom: 10px;
+}
+.scrollspy { position: relative; height: 100px; margin-top: 10px; overflow: auto; }
+/* Add padding for scrollspy */
+  #First {padding-top:0px;}
+  #Research {padding-top:100px;}
+  #Publications {padding-top:100px;}
+  #CV {padding-top:100px;}
+  #Crew {padding-top:100px;}
+  #myCarousel {padding-top:100px;}

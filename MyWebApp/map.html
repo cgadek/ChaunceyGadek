@@ -98,7 +98,7 @@
                 </p>
               </div>
             </div>
-            <h5>Site 1 | <a href="map2.html">Site 2</a> </h5>
+            <h5>Site 1 | <a class = "noDefault" href="map2.html">Site 2</a> </h5>
             </span>
           </small>
         </h2>
@@ -187,7 +187,7 @@
 
   <div class="container-fluid">
     <div class="row">
-      <button type="button" class="collapsible">Heart Mass (click to expand/collapse)</button>
+      <button type="button" class="collapsible"> <strong>Heart Mass</strong><i>(click to expand/collapse)</i></button>
       <div class="content">
         <div class="row">
           <div class="col-md-6">
@@ -266,7 +266,7 @@
     /* Parse JSON file, create charts, draw markers on map */
     // d3.json('untappd.json', function (error, data) {
     d3.csv('data/blood_final2.csv', function (error, data) {
-      
+
 
       // Test boxplot code
       // polyfill Array.find for IE
@@ -321,7 +321,7 @@
       let speciesColors = [{ 'value': 'Phleocryptes melanops', 'color': '#2471A3' }, { 'value': 'Tachuris rubrigastra', 'color': '#5499C7' }, { 'value': 'Zonotrichia capensis', 'color': '#D4E6F1' }, { 'value': 'Troglodytes aedon', 'color': '#A9CCE3' }];
       //  Set Elevation catagory colors here
 
-      let elevColors = [{ 'value': 'high', 'color': '#fed976'}, { 'value': 'low', 'color': '#e31a1c'}, { 'value': 'mid', 'color': '#feb24c'}];
+      let elevColors = [{ 'value': 'high', 'color': '#fed976' }, { 'value': 'low', 'color': '#e31a1c' }, { 'value': 'mid', 'color': '#feb24c' }];
       // set crossfilter
       var ndx = crossfilter(data);
 
@@ -352,7 +352,7 @@
         return Math.floor(tHbcorr / 1) * 1;
       }).reduceCount();
 
-    
+
       // adapted code
       let bpSpeciesGroup = speciesDim.group().reduce(
         function (p, v) {
@@ -453,7 +453,7 @@
         .dimension(ageDim)
         .group(ageGroup)
         .innerRadius(20)
-        .ordinalColors(["#82E0AA",  "#AD82E0"])
+        .ordinalColors(["#82E0AA", "#AD82E0"])
         .ordering(function (d) { return -d.value })
         ;
 
@@ -466,7 +466,7 @@
         // .ordinalColors(["#e31a1c", "#fed976", "#feb24c"])
         .ordering(function (d) { return -d.value })
         ;
-        elevChart.colorAccessor(function (data) { return data.key; })
+      elevChart.colorAccessor(function (data) { return data.key; })
         .colors(function (data) {
           return colorSchema(elevColors, data);
         });
@@ -749,7 +749,7 @@
           return colorSchema(speciesColors, data);
         });
 
-      
+
 
       dataCount
         .dimension(ndx)
@@ -806,11 +806,13 @@
             // marker.bindPopup("<p>" + name + " " + loc.brewery_city + " " + loc.brewery_state + "</p>");
             // marker.bindPopup("<p>" + name + " " + d["species"] + "</p>");
 
-            marker.bindPopup("species: " + species + "<br>" +
-              "Sex: " + sex + "<br>" +
+            marker.bindPopup(
+              // "species: " + species + "<br>" +
+              // "Sex: " + sex + "<br>" +
               "Locality: " + locality + "<br>" +
-              "Elevation: " + elevation + "<br>" +
-              "tHbcorr: " + tHbcorr + "<br>");
+              "Elevation: " + elevation + "<br>" 
+              // +"tHbcorr: " + tHbcorr + "<br>"
+              );
 
             birdMarkers.addLayer(marker);
           });
@@ -824,8 +826,8 @@
         dc.renderAll();
       });
 
-      d3.selectAll('a#year').on('click', function () {
-        yearChart.filterAll();
+      d3.selectAll('a#Sex').on('click', function () {
+        sexChart.filterAll();
         dc.redrawAll();
       });
 
@@ -883,6 +885,13 @@
       });
     }
 
+    // Prevent default behavior when certain links clicked
+    $('a.noDefault').click(function (e) {
+      // Special stuff to do when this link is clicked...
+
+      // Cancel the default action
+      e.preventDefault();
+    });
   </script>
 </body>
 

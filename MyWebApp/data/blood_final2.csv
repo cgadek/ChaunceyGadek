@@ -1,0 +1,240 @@
+species,sex,age,site_id,locality,elevation,elev_cat,lat,lon,tHbcorr,hct_final,heart,number_obs
+Troglodytes aedon,male,juvenile,8,Chosica,994,low,-11.92503333,-76.6514,13,0.436860068,0.118,1
+Phleocryptes melanops,male,adult,24,Patamo de Ite,3,low,-17.92471667,-70.93836667,13.1,0.41821112,0.144,15
+Phleocryptes melanops,female,adult,23,Ondores,4060,high,-11.05496667,-76.15656667,13.1,0.539453485,0.16,23
+Zonotrichia capensis,female,adult,2,Bosque Cachil,2550,mid,-7.403833333,-78.77603333,13.2,0.424018127,0.244,14
+Phleocryptes melanops,female,adult,11,Estero Mantagua,8,low,-32.88493333,-71.50816667,13.3,0.406396256,0.15,15
+Troglodytes aedon,male,juvenile,37,Yanaparin,723,low,-9.958633333,-77.80736667,13.5,0.44595901,0.12,2
+Phleocryptes melanops,female,adult,25,Playa de Puerto Viejo,1,low,-12.57491667,-76.70346667,13.5,0.44459749,0.148,16
+Zonotrichia capensis,female,adult,30,Quebrada,1500,mid,-12.6519,-72.3236,13.6,0.444398225,0.246,4
+Troglodytes aedon,male,adult,33,Rio Santa,357,low,-8.69485,-78.37861,13.6,0.481246956,0.118,4
+Troglodytes aedon,male,adult,2,Bosque Cachil,2500,mid,-7.398033333,-78.77826667,13.6,0.449261993,0.13,14
+Tachuris rubrigastra,female,adult,24,Patamo de Ite,3,low,-17.92471667,-70.93836667,13.6,0.48800738,0.078,15
+Phleocryptes melanops,male,adult,24,Patamo de Ite,3,low,-17.92471667,-70.93836667,13.7,0.436436885,0.158,15
+Phleocryptes melanops,male,juvenile,29,Puerto Morin,0,low,-8.426666667,-78.90415,13.7,0.407428903,0.18,18
+Troglodytes aedon,female,adult,21,Mal Paso,375,low,-10.00681667,-77.88163333,13.8,0.456567797,0.128,1
+Troglodytes aedon,female,adult,2,Bosque Cachil,2550,mid,-7.403833333,-78.77978333,13.8,0.462462806,0.176,14
+Tachuris rubrigastra,male,adult,11,Estero Mantagua,8,low,-32.88493333,-71.50816667,13.8,0.413933011,0.074,15
+Phleocryptes melanops,male,juvenile,11,Estero Mantagua,8,low,-32.88493333,-71.50816667,13.8,0.41062755,0.156,15
+Zonotrichia capensis,female,juvenile,15,Huayup,1060,mid,-9.90845,-77.82143333,13.9,0.455441577,0.228,2
+Troglodytes aedon,male,adult,13,Huayaringa,982,low,-11.92448333,-76.65196667,14,0.421052632,0.088,1
+Zonotrichia capensis,male,adult,7,Chontali,2520,mid,-5.58235,-79.15975,14,0.486044804,0.25,12
+Phleocryptes melanops,male,adult,24,Patamo de Ite,3,low,-17.92471667,-70.93836667,14,0.433269651,0.146,15
+Troglodytes aedon,female,adult,30,Quebrada,1500,mid,-12.6519,-72.3236,14.1,0.444893973,0.128,4
+Troglodytes aedon,female,adult,20,Macate,2972,mid,-8.75478,-78.04845,14.1,0.496784566,0.106,12
+Phleocryptes melanops,male,juvenile,11,Estero Mantagua,8,low,-32.88493333,-71.50816667,14.1,0.366019251,0.146,15
+Troglodytes aedon,male,adult,3,ca. 9.8 km N. of Olmos,143,low,-5.89858,-79.78517,14.2,0.496120866,0.136,2
+Zonotrichia capensis,female,adult,26,Puente Caraybamba,3120,high,-14.61375,-73.28245,14.2,0.452105608,0.22,2
+Troglodytes aedon,male,adult,19,Locumba,740,low,-17.56136167,-70.67236167,14.2,0.475618375,0.15,8
+Zonotrichia capensis,male,adult,41,NA,2170,mid,-5.84,-79.50533333,14.3,0.495945946,0.23,4
+Zonotrichia capensis,female,juvenile,7,Chontali,2530,mid,-5.582083333,-79.16013333,14.3,0.477729602,0.208,12
+Tachuris rubrigastra,male,adult,24,Patamo de Ite,3,low,-17.92471667,-70.93836667,14.3,0.479720114,0.106,15
+Zonotrichia capensis,female,adult,19,Locumba,740,low,-17.56136167,-70.67236167,14.4,0.445504841,0.242,8
+Troglodytes aedon,female,adult,2,Bosque Cachil,2550,mid,-7.403833333,-78.77978333,14.4,0.445372205,0.15,14
+Troglodytes aedon,male,adult,12,Huacapongo,309,low,-8.38685,-78.64518,14.5,0.435771889,0.116,1
+Zonotrichia capensis,male,adult,5,Caraz,3714,high,-9.100971667,-77.865555,14.5,0.525957973,0.282,6
+Zonotrichia capensis,female,adult,19,Locumba,740,low,-17.56136167,-70.67236167,14.5,0.462114537,0.216,8
+Zonotrichia capensis,female,juvenile,2,Bosque Cachil,2500,mid,-7.398033333,-78.77826667,14.5,0.474148543,0.18,14
+Phleocryptes melanops,male,adult,11,Estero Mantagua,8,low,-32.88493333,-71.50816667,14.5,0.467672853,0.186,15
+Tachuris rubrigastra,male,adult,25,Playa de Puerto Viejo,1,low,-12.57491667,-76.70346667,14.5,0.457609347,0.07,16
+Tachuris rubrigastra,female,adult,25,Playa de Puerto Viejo,1,low,-12.57491667,-76.70346667,14.5,0.651521382,0.078,16
+Phleocryptes melanops,female,adult,29,Puerto Morin,0,low,-8.4258,-78.90205,14.5,0.462824461,0.166,18
+Zonotrichia capensis,male,adult,32,R’o Pachachaca,1727,mid,-13.66295,-72.93666667,14.6,0.484272608,0.14,3
+Troglodytes aedon,male,adult,33,Rio Santa,357,low,-8.69485,-78.37861,14.6,0.515674603,0.134,4
+Zonotrichia capensis,male,juvenile,5,Caraz,3714,high,-9.100971667,-77.865555,14.6,0.505311714,0.308,6
+Phleocryptes melanops,male,adult,25,Playa de Puerto Viejo,1,low,-12.57491667,-76.70346667,14.6,0.446923438,0.164,16
+Zonotrichia capensis,male,adult,32,R’o Pachachaca,1727,mid,-13.66295,-72.93666667,14.7,0.471352354,0.26,3
+Zonotrichia capensis,male,juvenile,5,Caraz,3714,high,-9.100971667,-77.865555,14.7,0.511648352,0.266,6
+Zonotrichia capensis,female,adult,2,Bosque Cachil,2550,mid,-7.403833333,-78.77978333,14.7,0.463052695,0.254,14
+Phleocryptes melanops,female,adult,25,Playa de Puerto Viejo,1,low,-12.57491667,-76.70346667,14.7,0.458847737,0.156,16
+Zonotrichia capensis,male,adult,2,Bosque Cachil,2550,mid,-7.403833333,-78.77978333,14.8,0.480626981,0.28,14
+Tachuris rubrigastra,female,adult,25,Playa de Puerto Viejo,1,low,-12.57491667,-76.70346667,14.8,0.460613157,0.072,16
+Phleocryptes melanops,male,juvenile,17,Laguna Napique,4,low,-5.517133333,-80.70375,14.8,0.438617763,0.178,18
+Troglodytes aedon,male,adult,41,NA,2215,mid,-5.84,-79.50533333,14.9,0.444119795,0.104,4
+Zonotrichia capensis,male,adult,30,Quebrada,1500,mid,-12.6519,-72.3236,14.9,0.475787335,0.254,4
+Phleocryptes melanops,male,adult,36,Viscachuni,3828,high,-15.80676667,-69.99171667,14.9,0.457347447,0.194,11
+Zonotrichia capensis,female,adult,7,Chontali,2520,mid,-5.58235,-79.15975,14.9,0.491192014,0.23,12
+Zonotrichia capensis,female,adult,20,Macate,2972,mid,-8.75478,-78.04845,14.9,0.485909823,0.23,12
+Zonotrichia capensis,female,adult,2,Bosque Cachil,2550,mid,-7.403833333,-78.77978333,14.9,0.443876016,0.304,14
+Phleocryptes melanops,female,juvenile,17,Laguna Napique,6,low,-5.5171,-80.70386667,14.9,0.46803653,0.15,18
+Troglodytes aedon,unknown,adult,16,Irman,1761,mid,-9.858316667,-77.74636667,15,0.523180243,0.118,3
+Zonotrichia capensis,male,adult,19,Locumba,740,low,-17.56136167,-70.67236167,15,0.445307546,0.21,8
+Zonotrichia capensis,female,adult,7,Chontali,2520,mid,-5.58235,-79.15975,15,0.437899361,0.22,12
+Troglodytes aedon,male,adult,20,Macate,3740,high,-8.74247,-78.0407,15,0.5,0.13,12
+Phleocryptes melanops,male,adult,11,Estero Mantagua,8,low,-32.88493333,-71.50816667,15,0.462159864,0.15,15
+Tachuris rubrigastra,male,adult,25,Playa de Puerto Viejo,1,low,-12.57491667,-76.70346667,15,0.44371574,0.086,16
+Troglodytes aedon,male,adult,18,Las Pinas,2307,mid,-6.05125,-78.23355,15.1,0.530612245,0.144,1
+Phleocryptes melanops,female,adult,24,Patamo de Ite,3,low,-17.92471667,-70.93836667,15.1,0.425400291,0.126,15
+Phleocryptes melanops,female,juvenile,25,Playa de Puerto Viejo,1,low,-12.57491667,-76.70346667,15.1,0.479073244,0.156,16
+Phleocryptes melanops,male,adult,23,Ondores,4050,high,-11.05541667,-76.15652778,15.1,0.442754078,0.218,23
+Zonotrichia capensis,female,adult,28,Puente „ununya,3563,high,-14.67873333,-73.1478,15.2,0.454904542,0.184,2
+Zonotrichia capensis,female,adult,41,NA,2168,mid,-5.84,-79.50533333,15.2,0.441707409,0.172,4
+Tachuris rubrigastra,female,juvenile,11,Estero Mantagua,8,low,-32.88493333,-71.50816667,15.2,0.47188196,0.068,15
+Phleocryptes melanops,male,adult,25,Playa de Puerto Viejo,1,low,-12.57491667,-76.70346667,15.2,0.422388545,0.228,16
+Tachuris rubrigastra,female,juvenile,25,Playa de Puerto Viejo,1,low,-12.57491667,-76.70346667,15.2,0.482574409,0.086,16
+Tachuris rubrigastra,female,adult,23,Ondores,4056,high,-11.0532,-76.1535,15.2,0.553513072,0.114,23
+Zonotrichia capensis,male,adult,4,ca. Circa,2375,mid,-13.89498333,-72.90898333,15.3,0.484814398,0.238,1
+Troglodytes aedon,female,adult,3,ca. 9.8 km N. of Olmos,133,low,-5.89614,-79.78522,15.3,0.473972198,0.094,2
+Zonotrichia capensis,male,adult,28,Puente „ununya,3563,high,-14.67873333,-73.1478,15.3,0.530385664,0.278,2
+Zonotrichia capensis,male,adult,9,Chuquibamba,3200,high,-15.81433333,-72.66711667,15.3,0.508020215,0.236,7
+Tachuris rubrigastra,male,adult,24,Patamo de Ite,3,low,-17.92471667,-70.93836667,15.3,0.497220678,0.084,15
+Tachuris rubrigastra,female,adult,24,Patamo de Ite,3,low,-17.92471667,-70.93836667,15.3,0.481108312,0.088,15
+Tachuris rubrigastra,male,adult,25,Playa de Puerto Viejo,1,low,-12.57491667,-76.70346667,15.3,0.501571668,0.078,16
+Tachuris rubrigastra,male,juvenile,17,Laguna Napique,6,low,-5.5171,-80.70386667,15.3,0.465397924,0.098,18
+Zonotrichia capensis,male,adult,32,R’o Pachachaca,1727,mid,-13.66295,-72.93666667,15.4,0.450388844,0.172,3
+Phleocryptes melanops,male,adult,36,Viscachuni,3828,high,-15.80676667,-69.99171667,15.4,0.500809498,0.164,11
+Troglodytes aedon,male,adult,7,Chontali,2520,mid,-5.58235,-79.15975,15.4,0.579493835,0.17,12
+Zonotrichia capensis,male,adult,7,Chontali,2530,mid,-5.582083333,-79.16013333,15.4,0.510931174,0.202,12
+Zonotrichia capensis,female,adult,20,Macate,2972,mid,-8.75478,-78.04845,15.4,0.524108004,0.176,12
+Tachuris rubrigastra,male,adult,11,Estero Mantagua,8,low,-32.88493333,-71.50816667,15.4,0.509735744,0.068,15
+Phleocryptes melanops,unknown,juvenile,11,Estero Mantagua,8,low,-32.88493333,-71.50816667,15.4,0.46262429,0.18,15
+Tachuris rubrigastra,male,adult,25,Playa de Puerto Viejo,1,low,-12.57491667,-76.70346667,15.4,0.476264591,0.092,16
+Tachuris rubrigastra,female,adult,25,Playa de Puerto Viejo,1,low,-12.57491667,-76.70346667,15.4,0.516688482,0.076,16
+Zonotrichia capensis,female,juvenile,16,Irman,1761,mid,-9.858316667,-77.74636667,15.5,0.50253357,0.186,3
+Tachuris rubrigastra,male,adult,25,Playa de Puerto Viejo,1,low,-12.57491667,-76.70346667,15.5,0.549413218,0.108,16
+Phleocryptes melanops,male,adult,17,Laguna Napique,4,low,-5.517133333,-80.70375,15.5,0.465626038,0.144,18
+Troglodytes aedon,male,adult,6,Carhuaz,3439,high,-9.572116667,-77.84745,15.6,0.510294583,0.16,2
+Troglodytes aedon,unknown,juvenile,15,Huayup,1049,mid,-9.908066667,-77.82136667,15.6,0.561484099,0.116,2
+Zonotrichia capensis,female,adult,37,Yanaparin,723,low,-9.958633333,-77.80736667,15.6,0.47203111,0.214,2
+Troglodytes aedon,male,adult,1,Anco Cahua,2975,mid,-17.32088333,-70.24773333,15.6,0.457746479,0.118,6
+Troglodytes aedon,female,adult,1,Anco Cahua,2975,mid,-17.32088333,-70.24773333,15.6,0.498461538,0.158,6
+Phleocryptes melanops,female,juvenile,36,Viscachuni,3828,high,-15.80676667,-69.99171667,15.6,0.48206278,0.168,11
+Tachuris rubrigastra,female,adult,24,Patamo de Ite,3,low,-17.92471667,-70.93836667,15.6,0.538840263,0.098,15
+Phleocryptes melanops,male,adult,25,Playa de Puerto Viejo,1,low,-12.57491667,-76.70346667,15.6,0.468807824,0.158,16
+Phleocryptes melanops,female,adult,23,Ondores,4061,high,-11.0563,-76.15615,15.6,0.511122976,0.212,23
+Zonotrichia capensis,male,adult,31,R’o Antabamba,2338,mid,-14.0521,-73.18916667,15.7,0.544902913,0.226,1
+Troglodytes aedon,male,adult,1,Anco Cahua,2975,mid,-17.32088333,-70.24773333,15.7,0.484745763,0.068,6
+Zonotrichia capensis,male,adult,19,Locumba,740,low,-17.56136167,-70.67236167,15.7,0.496046229,0.202,8
+Phleocryptes melanops,male,juvenile,11,Estero Mantagua,8,low,-32.88493333,-71.50816667,15.7,0.499536608,0.152,15
+Phleocryptes melanops,male,juvenile,25,Playa de Puerto Viejo,1,low,-12.57491667,-76.70346667,15.7,0.486173393,0.198,16
+Tachuris rubrigastra,female,juvenile,17,Laguna Napique,4,low,-5.517133333,-80.70375,15.7,0.446530148,0.076,18
+Phleocryptes melanops,female,adult,29,Puerto Morin,0,low,-8.426666667,-78.90415,15.7,0.441066417,0.178,18
+Zonotrichia capensis,female,adult,41,NA,2175,mid,-5.84,-79.50533333,15.8,0.468164794,0.15,4
+Troglodytes aedon,male,adult,19,Locumba,740,low,-17.56136167,-70.67236167,15.8,0.46372366,0.138,8
+Phleocryptes melanops,male,juvenile,36,Viscachuni,3828,high,-15.80676667,-69.99171667,15.8,0.535814607,0.178,11
+Zonotrichia capensis,female,adult,7,Chontali,2520,mid,-5.58235,-79.15975,15.8,0.487325175,0.2,12
+Troglodytes aedon,male,adult,20,Macate,2972,mid,-8.75478,-78.04845,15.8,0.538435604,0.154,12
+Troglodytes aedon,female,juvenile,22,Nuevo Mundo,1503,mid,-5.213066667,-78.6436,15.9,0.508364312,0.18,2
+Zonotrichia capensis,male,adult,7,Chontali,2520,mid,-5.58235,-79.15975,15.9,0.483658408,0.21,12
+Zonotrichia capensis,female,adult,2,Bosque Cachil,2500,mid,-7.398033333,-78.77826667,15.9,0.531088083,0.276,14
+Tachuris rubrigastra,female,adult,11,Estero Mantagua,8,low,-32.88493333,-71.50816667,15.9,0.44679815,0.064,15
+Tachuris rubrigastra,male,adult,24,Patamo de Ite,3,low,-17.92471667,-70.93836667,15.9,0.492055926,0.086,15
+Phleocryptes melanops,male,adult,23,Ondores,4058,high,-11.05583333,-76.156,15.9,0.556137289,0.192,23
+Phleocryptes melanops,male,juvenile,23,Ondores,4056,high,-11.05496667,-76.15656667,15.9,0.402923645,0.166,23
+Zonotrichia capensis,male,adult,35,Tampumayu,2671,mid,-14.17391667,-73.32313889,16,0.497196262,0.242,5
+Tachuris rubrigastra,male,juvenile,11,Estero Mantagua,8,low,-32.88493333,-71.50816667,16,0.512247397,0.084,15
+Tachuris rubrigastra,male,adult,24,Patamo de Ite,3,low,-17.92471667,-70.93836667,16,0.466585167,0.094,15
+Zonotrichia capensis,male,adult,35,Tampumayu,2671,mid,-14.17391667,-73.32313889,16.1,0.477117819,0.25,5
+Zonotrichia capensis,male,adult,9,Chuquibamba,3200,high,-15.81433333,-72.66711667,16.1,0.498540727,0.306,7
+Zonotrichia capensis,male,adult,9,Chuquibamba,3200,high,-15.81433333,-72.66711667,16.1,0.53488689,0.242,7
+Phleocryptes melanops,male,adult,36,Viscachuni,3828,high,-15.80676667,-69.99171667,16.1,0.502024291,0.204,11
+Zonotrichia capensis,male,adult,7,Chontali,2521,mid,-5.585183333,-79.15823333,16.1,0.560869565,0.19,12
+Zonotrichia capensis,female,adult,20,Macate,2972,mid,-8.75478,-78.04845,16.1,0.552380952,0.306,12
+Tachuris rubrigastra,male,juvenile,11,Estero Mantagua,8,low,-32.88493333,-71.50816667,16.1,0.554527751,0.068,15
+Troglodytes aedon,female,adult,27,Puente Nununya,3573,high,-14.4076,-73.08771667,16.2,0.537687613,0.126,3
+Zonotrichia capensis,female,juvenile,5,Caraz,3714,high,-9.100971667,-77.865555,16.2,0.575672421,0.234,6
+Zonotrichia capensis,male,adult,16,Irman,1761,mid,-9.858316667,-77.74636667,16.3,0.526315789,0.284,3
+Zonotrichia capensis,male,adult,9,Chuquibamba,3200,high,-15.81433333,-72.66711667,16.3,0.485636969,0.234,7
+Phleocryptes melanops,male,adult,29,Puerto Morin,-1,low,-8.426616667,-78.90375,16.3,0.47737966,0.132,18
+Zonotrichia capensis,female,adult,6,Carhuaz,3439,high,-9.572116667,-77.84745,16.4,0.515056462,0.312,2
+Zonotrichia capensis,female,adult,27,Puente Nununya,3573,high,-14.4076,-73.08771667,16.4,0.500431034,0.202,3
+Troglodytes aedon,male,adult,30,Quebrada,1500,mid,-12.6519,-72.3236,16.4,0.457541448,0.232,4
+Zonotrichia capensis,male,adult,19,Locumba,740,low,-17.56136167,-70.67236167,16.4,0.472768533,0.234,8
+Zonotrichia capensis,male,adult,2,Bosque Cachil,2550,mid,-7.403833333,-78.77978333,16.4,0.501054852,0.238,14
+Tachuris rubrigastra,male,adult,23,Ondores,4058,high,-11.05583333,-76.156,16.4,0.538559322,0.124,23
+Zonotrichia capensis,female,adult,33,Rio Santa,357,low,-8.69485,-78.37861,16.5,0.584027365,0.28,4
+Troglodytes aedon,male,adult,5,Caraz,3714,high,-9.100971667,-77.865555,16.5,0.532180717,0.132,6
+Phleocryptes melanops,male,adult,36,Viscachuni,3828,high,-15.80676667,-69.99171667,16.5,0.545681063,0.196,11
+Phleocryptes melanops,male,juvenile,36,Viscachuni,3828,high,-15.80676667,-69.99171667,16.5,0.501942825,0.164,11
+Tachuris rubrigastra,female,juvenile,11,Estero Mantagua,8,low,-32.88493333,-71.50816667,16.5,0.533925174,0.072,15
+Phleocryptes melanops,male,juvenile,17,Laguna Napique,4,low,-5.517133333,-80.70375,16.5,0.466982622,0.172,18
+Troglodytes aedon,female,adult,35,Tampumayu,2672,mid,-14.17391667,-73.32313889,16.6,0.49382716,0.118,5
+Zonotrichia capensis,male,juvenile,5,Caraz,3714,high,-9.100971667,-77.865555,16.6,0.593941537,0.246,6
+Tachuris rubrigastra,female,adult,24,Patamo de Ite,3,low,-17.92471667,-70.93836667,16.6,0.538304392,0.108,15
+Tachuris rubrigastra,male,adult,17,Laguna Napique,6,low,-5.5171,-80.70386667,16.6,0.464402351,0.098,18
+Tachuris rubrigastra,female,juvenile,17,Laguna Napique,4,low,-5.5171,-80.70386667,16.6,0.479277801,0.084,18
+Phleocryptes melanops,male,juvenile,36,Viscachuni,3828,high,-15.80676667,-69.99171667,16.7,0.485386221,0.224,11
+Troglodytes aedon,female,adult,20,Macate,2972,mid,-8.75478,-78.04845,16.7,0.538276465,0.14,12
+Zonotrichia capensis,male,adult,2,Bosque Cachil,2550,mid,-7.403833333,-78.77978333,16.7,0.488557559,0.29,14
+Tachuris rubrigastra,male,adult,24,Patamo de Ite,3,low,-17.92471667,-70.93836667,16.7,0.530200258,0.096,15
+Phleocryptes melanops,female,adult,17,Laguna Napique,3,low,-5.51765,-80.70386667,16.7,0.439874283,0.138,18
+Phleocryptes melanops,female,juvenile,17,Laguna Napique,6,low,-5.5171,-80.70386667,16.7,0.508884151,0.134,18
+Tachuris rubrigastra,male,adult,23,Ondores,4058,high,-11.05583333,-76.156,16.7,0.435882801,0.146,23
+Phleocryptes melanops,female,adult,23,Ondores,4060,high,-11.05541667,-76.15652778,16.7,0.561827314,0.204,23
+Troglodytes aedon,male,adult,19,Locumba,740,low,-17.56136167,-70.67236167,16.8,0.517518549,0.164,8
+Zonotrichia capensis,unknown,juvenile,7,Chontali,2530,mid,-5.582083333,-79.16013333,16.8,0.515858632,0.182,12
+Zonotrichia capensis,female,adult,20,Macate,3931,high,-8.75236,-78.03402,16.8,0.525706264,0.303,12
+Tachuris rubrigastra,male,adult,29,Puerto Morin,-1,low,-8.426616667,-78.90375,16.8,0.543895055,0.102,18
+Phleocryptes melanops,male,adult,29,Puerto Morin,-1,low,-8.426616667,-78.90375,16.8,0.51459854,0.15,18
+Zonotrichia capensis,female,adult,2,Bosque Cachil,2500,mid,-7.398033333,-78.77826667,16.81,0.51261418,0.272,14
+Zonotrichia capensis,male,adult,26,Puente Caraybamba,3120,high,-14.61375,-73.28245,16.9,0.513601036,0.296,2
+Troglodytes aedon,male,adult,10,Contunapampa,4233,high,-11.76461667,-76.51785,16.9,0.514512319,0.162,4
+Tachuris rubrigastra,female,adult,29,Puerto Morin,0,low,-8.426666667,-78.90415,16.9,0.645071209,0.072,18
+Zonotrichia capensis,female,adult,7,Chontali,2505,mid,-5.583216667,-79.15983333,17,0.511962891,0.19,12
+Phleocryptes melanops,female,adult,29,Puerto Morin,-1,low,-8.426616667,-78.90375,17,0.508036739,0.168,18
+Phleocryptes melanops,male,adult,23,Ondores,4058,high,-11.05583333,-76.156,17,0.568974042,0.182,23
+Troglodytes aedon,male,adult,22,Nuevo Mundo,1503,mid,-5.213066667,-78.6435,17.1,0.528669725,0.168,2
+Troglodytes aedon,male,adult,34,San Pedro de Casta,4123,high,-11.76821667,-76.5305,17.1,0.546161049,0.16,3
+Tachuris rubrigastra,female,adult,24,Patamo de Ite,3,low,-17.92471667,-70.93836667,17.1,0.565629742,0.13,15
+Troglodytes aedon,male,adult,14,Huaylas,3350,high,-8.83621,-77.9258,17.2,0.553447798,0.14,1
+Zonotrichia capensis,male,adult,2,Bosque Cachil,2500,mid,-7.398033333,-78.77826667,17.2,0.491680815,0.29,14
+Tachuris rubrigastra,male,juvenile,17,Laguna Napique,4,low,-5.517133333,-80.70375,17.2,0.478518194,0.096,18
+Troglodytes aedon,male,adult,35,Tampumayu,2671,mid,-14.17391667,-73.32313889,17.3,0.537424547,0.162,5
+Troglodytes aedon,male,juvenile,2,Bosque Cachil,2550,mid,-7.403833333,-78.77978333,17.3,0.552380952,0.122,14
+Troglodytes aedon,male,adult,33,Rio Santa,357,low,-8.69485,-78.37861,17.4,0.551122853,0.128,4
+Zonotrichia capensis,male,adult,9,Chuquibamba,3200,high,-15.81433333,-72.66711667,17.4,0.527520701,0.254,7
+Phleocryptes melanops,male,juvenile,17,Laguna Napique,4,low,-5.517133333,-80.70386667,17.4,0.470301418,0.14,18
+Troglodytes aedon,male,adult,27,Puente Nununya,3548,high,-14.40833333,-73.0876,17.5,0.518930523,0.124,3
+Troglodytes aedon,male,adult,35,Tampumayu,2671,mid,-14.17391667,-73.32313889,17.5,0.483743061,0.122,5
+Zonotrichia capensis,female,adult,1,Anco Cahua,2975,mid,-17.32088333,-70.24773333,17.5,0.522012579,0.192,6
+Zonotrichia capensis,male,adult,7,Chontali,2530,mid,-5.582083333,-79.16013333,17.5,0.521661189,0.2,12
+Phleocryptes melanops,female,adult,24,Patamo de Ite,3,low,-17.92471667,-70.93836667,17.5,0.557278639,0.136,15
+Phleocryptes melanops,male,adult,29,Puerto Morin,0,low,-8.4258,-78.90205,17.5,0.546532201,0.204,18
+Tachuris rubrigastra,male,adult,23,Ondores,4058,high,-11.05583333,-76.156,17.5,0.554657429,0.104,23
+Tachuris rubrigastra,male,adult,36,Viscachuni,3828,high,-15.80676667,-69.99171667,17.6,0.540408958,0.098,11
+Tachuris rubrigastra,male,adult,36,Viscachuni,3828,high,-15.80676667,-69.99171667,17.6,0.521334135,0.092,11
+Zonotrichia capensis,female,adult,20,Macate,3840,high,-8.75236,-78.03402,17.6,0.532258065,0.244,12
+Tachuris rubrigastra,female,adult,36,Viscachuni,3828,high,-15.80676667,-69.99171667,17.7,0.549634592,0.104,11
+Zonotrichia capensis,male,adult,20,Macate,3931,high,-8.75236,-78.03402,17.7,0.529583638,0.28,12
+Tachuris rubrigastra,male,juvenile,17,Laguna Napique,4,low,-5.517133333,-80.70375,17.7,0.492696629,0.104,18
+Phleocryptes melanops,male,juvenile,17,Laguna Napique,6,low,-5.5171,-80.70386667,17.7,0.440934066,0.198,18
+Zonotrichia capensis,male,adult,38,NA,3580,high,-13.48649,-72.98179,17.8,0.540721957,0.256,2
+Troglodytes aedon,male,adult,9,Chuquibamba,3200,high,-15.81433333,-72.66711667,17.8,0.55997552,0.146,7
+Phleocryptes melanops,male,juvenile,17,Laguna Napique,3,low,-5.51765,-80.70386667,17.8,0.474317102,0.158,18
+Tachuris rubrigastra,male,adult,29,Puerto Morin,0,low,-8.426666667,-78.90415,17.8,0.542564655,0.072,18
+Tachuris rubrigastra,male,adult,23,Ondores,4058,high,-11.05583333,-76.156,17.8,0.569335239,0.104,23
+Phleocryptes melanops,male,adult,23,Ondores,4050,high,-11.05541667,-76.15652778,17.8,0.496994848,0.256,23
+Phleocryptes melanops,male,adult,23,Ondores,4060,high,-11.05496667,-76.15656667,17.8,0.532040472,0.19,23
+Zonotrichia capensis,male,adult,1,Anco Cahua,2975,mid,-17.32088333,-70.24773333,17.9,0.51147541,0.284,6
+Zonotrichia capensis,male,adult,9,Chuquibamba,3200,high,-15.81433333,-72.66711667,17.9,0.540873928,0.284,7
+Tachuris rubrigastra,female,juvenile,17,Laguna Napique,3,low,-5.51765,-80.70386667,17.9,0.510251046,0.089,18
+Phleocryptes melanops,female,adult,29,Puerto Morin,0,low,-8.426666667,-78.90415,17.9,0.508312552,0.188,18
+Zonotrichia capensis,male,adult,39,NA,39,low,-10.06811667,-78.13603333,18,0.533600279,0.236,1
+Tachuris rubrigastra,female,adult,29,Puerto Morin,-1,low,-8.4258,-78.90205,18,0.491406747,0.078,18
+Phleocryptes melanops,female,juvenile,17,Laguna Napique,6,low,-5.5171,-80.70386667,18.1,0.514911463,0.172,18
+Zonotrichia capensis,female,adult,1,Anco Cahua,2975,mid,-17.32088333,-70.24773333,18.2,0.509090909,0.2,6
+Zonotrichia capensis,female,adult,20,Macate,2972,mid,-8.75478,-78.04845,18.2,0.555523755,0.174,12
+Phleocryptes melanops,female,adult,23,Ondores,4061,high,-11.0563,-76.15615,18.2,0.586332958,0.252,23
+Zonotrichia capensis,male,adult,20,Macate,3997,high,-8.75236,-78.03402,18.3,0.563857235,0.254,12
+Tachuris rubrigastra,female,adult,29,Puerto Morin,-1,low,-8.4258,-78.90205,18.3,0.548142891,0.098,18
+Phleocryptes melanops,male,juvenile,11,Estero Mantagua,8,low,-32.88493333,-71.50816667,18.5,0.546226415,0.186,15
+Tachuris rubrigastra,male,adult,23,Ondores,4058,high,-11.05583333,-76.156,18.6,0.534948372,0.134,23
+Tachuris rubrigastra,female,adult,23,Ondores,4050,high,-11.05541667,-76.15652778,18.7,0.639108911,0.106,23
+Tachuris rubrigastra,male,adult,23,Ondores,4058,high,-11.05583333,-76.156,18.8,0.586661342,0.092,23
+Zonotrichia capensis,female,adult,40,NA,1745,mid,-9.858366667,-77.74566667,18.9,0.516428571,0.228,1
+Phleocryptes melanops,female,juvenile,29,Puerto Morin,0,low,-8.4258,-78.90205,19.2,0.592254134,0.202,18
+Phleocryptes melanops,male,adult,23,Ondores,4060,high,-11.05496667,-76.15656667,19.3,0.560080107,0.28,23
+Zonotrichia capensis,male,adult,38,NA,3680,high,-13.48365,-72.98068,19.4,0.592535787,0.252,2
+Zonotrichia capensis,male,adult,34,San Pedro de Casta,4142,high,-11.7673,-76.52476667,19.4,0.536667367,0.256,3
+Phleocryptes melanops,male,adult,29,Puerto Morin,-1,low,-8.426616667,-78.90375,19.4,0.610515464,0.2,18
+Tachuris rubrigastra,female,adult,29,Puerto Morin,0,low,-8.4258,-78.90205,19.5,0.519745223,0.096,18
+Tachuris rubrigastra,female,adult,23,Ondores,4050,high,-11.05541667,-76.15652778,19.5,0.596212331,0.12,23
+Tachuris rubrigastra,male,adult,23,Ondores,4060,high,-11.05496667,-76.15656667,19.5,0.517653167,0.1,23
+Troglodytes aedon,male,adult,10,Contunapampa,4188,high,-11.76685,-76.52241667,19.6,0.560250643,0.048,4
+Tachuris rubrigastra,male,adult,17,Laguna Napique,3,low,-5.517133333,-80.70386667,20.1,0.535111411,0.084,18
+Tachuris rubrigastra,female,adult,29,Puerto Morin,0,low,-8.4258,-78.90205,20.1,0.563466878,0.09,18
+Zonotrichia capensis,male,adult,10,Contunapampa,4166,high,-11.7682,-76.52406667,20.3,0.518881119,0.298,4
+Zonotrichia capensis,male,juvenile,10,Contunapampa,4237,high,-11.76863333,-76.52343333,20.4,0.593042672,0.26,4
+Zonotrichia capensis,female,adult,34,San Pedro de Casta,4142,high,-11.7673,-76.52476667,21,0.572737069,0.294,3
+Tachuris rubrigastra,female,adult,29,Puerto Morin,0,low,-8.4258,-78.90205,21,0.522160665,0.098,18
+Tachuris rubrigastra,male,adult,23,Ondores,4050,high,-11.05541667,-76.15652778,21.4,0.567430357,0.13,23

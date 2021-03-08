@@ -56,7 +56,7 @@
       background-color: #f0e4d6;
     }
   </style>
-  <!-- Maybe need to change main.css file or add window.onlaod, becasue the above style code did not function in main.css file -->
+  <!-- Maybe need to change main.css file or add window.onload, becasue the above style code did not function in main.css file -->
 </head>
 
 <body>
@@ -98,7 +98,8 @@
                 </p>
               </div>
             </div>
-            <h5><a href="map.html">Site 1</a> | Site 2 </h5>
+            <!-- add class= "noDefault" This should eliminate default behavior of page -->
+            <h5><a href="map.html" >Site 1</a> | Site 2 </h5>
             </span>
           </small>
         </h2>
@@ -151,7 +152,7 @@
   <!-- Test collapsable DIV Hemoglobin -->
   <div class="container-fluid d-flex flex-column">
     <div class="row flex-fill">
-      <button type="button" class="collapsible">Hemoglobin (click to expand/collapse)</button>
+      <button type="button" class="collapsible"> <strong>Hemoglobin</strong> <i>(click to expand/collapse)</i></button>
       <div class="content">
         <div class="row flex-fill">
           <div class="col-xs-6 d-flex flex-column">
@@ -169,7 +170,7 @@
   </div>
   <div class="container-fluid">
     <div class="row">
-      <button type="button" class="collapsible">Red Blood Cell Volume (click to expand/collapse)</button>
+      <button type="button" class="collapsible"><strong>Red Blood Cell Volume</strong> <i>(click to expand/collapse)</i></button>
       <div class="content">
         <div class="row">
           <div class="col-md-6">
@@ -187,7 +188,7 @@
 
   <div class="container-fluid">
     <div class="row">
-      <button type="button" class="collapsible">Heart Mass (click to expand/collapse)</button>
+      <button type="button" class="collapsible"><strong>Heart Mass</strong> <i>(click to expand/collapse)</i></button>
       <div class="content">
         <div class="row">
           <div class="col-md-6">
@@ -266,7 +267,7 @@
     /* Parse JSON file, create charts, draw markers on map */
     // d3.json('untappd.json', function (error, data) {
     d3.csv('data/blood_final2.csv', function (error, data) {
-      
+
 
       // Test boxplot code
       // polyfill Array.find for IE
@@ -321,7 +322,20 @@
       let speciesColors = [{ 'value': 'Phleocryptes melanops', 'color': '#2471A3' }, { 'value': 'Tachuris rubrigastra', 'color': '#5499C7' }, { 'value': 'Zonotrichia capensis', 'color': '#D4E6F1' }, { 'value': 'Troglodytes aedon', 'color': '#A9CCE3' }];
       //  Set Elevation catagory colors here
 
-      let elevColors = [{ 'value': 'high', 'color': '#fed976'}, { 'value': 'low', 'color': '#e31a1c'}, { 'value': 'mid', 'color': '#feb24c'}];
+      let elevColors = [{ 'value': 'high', 'color': '#fed976' }, { 'value': 'low', 'color': '#e31a1c' }, { 'value': 'mid', 'color': '#feb24c' }];
+      
+      // Set site colors
+      let siteColors = [{ 'value': '3', 'color': '#e31a1c' },{ 'value': '8', 'color': '#e31a1c' }, { 'value': '11', 'color': '#e31a1c' }, 
+      { 'value': '12', 'color': '#e31a1c' }, { 'value': '13', 'color': '#e31a1c' }, { 'value': '17', 'color': '#e31a1c' }, { 'value': '19', 'color': '#e31a1c' },
+      { 'value': '21', 'color': '#e31a1c' }, { 'value': '24', 'color': '#e31a1c' }, { 'value': '25', 'color': '#e31a1c' }, { 'value': '29', 'color': '#e31a1c' }, 
+      { 'value': '33', 'color': '#e31a1c' }, { 'value': '37', 'color': '#e31a1c' }, { 'value': '39', 'color': '#e31a1c' }, { 'value': '1', 'color': '#feb24c' },
+      { 'value': '2', 'color': '#feb24c' }, { 'value': '4', 'color': '#feb24c' }, { 'value': '7', 'color': '#feb24c' }, { 'value': '15', 'color': '#feb24c' }, 
+      { 'value': '16', 'color': '#feb24c' }, { 'value': '18', 'color': '#feb24c' }, { 'value': '20', 'color': '#feb24c' }, { 'value': '22', 'color': '#feb24c' }, { 'value': '30', 'color': '#feb24c' }, 
+      { 'value': '31', 'color': '#feb24c' }, { 'value': '32', 'color': '#feb24c' }, { 'value': '35', 'color': '#feb24c' }, { 'value': '40', 'color': '#feb24c' }, 
+      { 'value': '41', 'color': '#feb24c' }, { 'value': '5', 'color': '#fed976' }, { 'value': '6', 'color': '#fed976' }, { 'value': '9', 'color': '#fed976' }, { 'value': '10', 'color': '#fed976' }, 
+      { 'value': '14', 'color': '#fed976' },  { 'value': '23', 'color': '#fed976' }, { 'value': '26', 'color': '#fed976' }, 
+      { 'value': '27', 'color': '#fed976' }, { 'value': '28', 'color': '#fed976' }, { 'value': '34', 'color': '#fed976' }, { 'value': '36', 'color': '#fed976' }, 
+      { 'value': '38', 'color': '#fed976' }];
       // set crossfilter
       var ndx = crossfilter(data);
 
@@ -352,7 +366,7 @@
         return Math.floor(tHbcorr / 1) * 1;
       }).reduceCount();
 
-    
+
       // adapted code
       let bpSpeciesGroup = speciesDim.group().reduce(
         function (p, v) {
@@ -453,7 +467,7 @@
         .dimension(ageDim)
         .group(ageGroup)
         .innerRadius(20)
-        .ordinalColors(["#82E0AA",  "#AD82E0"])
+        .ordinalColors(["#82E0AA", "#AD82E0"])
         .ordering(function (d) { return -d.value })
         ;
 
@@ -466,7 +480,7 @@
         // .ordinalColors(["#e31a1c", "#fed976", "#feb24c"])
         .ordering(function (d) { return -d.value })
         ;
-        elevChart.colorAccessor(function (data) { return data.key; })
+      elevChart.colorAccessor(function (data) { return data.key; })
         .colors(function (data) {
           return colorSchema(elevColors, data);
         });
@@ -490,7 +504,7 @@
         // .ordinalColors(["grey"])
         .brushOn(false)
         // .xAxisLabel('Macroarea')
-        .yAxisLabel('Count')
+        .yAxisLabel('Number of Specimens')
         .elasticX(true)
         .elasticY(true)
         .yAxisPadding('10%')
@@ -602,7 +616,7 @@
         .margins({ top: 10, right: 20, bottom: 35, left: 30 })// because of the x axix label, need to set the bootom margin a large number
         .x(d3.scale.ordinal().domain(Elev_catDim))  //d3.scale.ordinal().domain(genusDim) //d3.scaleBand() for d3 v4
         .xUnits(dc.units.ordinal)
-        .ordinalColors(elevColors)
+        .ordinalColors(siteColors)
         .brushOn(true)
         .yAxisLabel('Number of Specimens')
         .xAxisLabel('Locality')
@@ -626,10 +640,10 @@
       // siteCountBarChart.xAxis().tickValues([1, 5, 10, 15, 20, 25, 30, 35]);
 
       // This next line does not work!
-      // siteCountBarChart.colorAccessor(function (data) { return data.key; })
-      //   .colors(function (data) {
-      //     return colorSchema(elevColors, data);
-      //   });
+      siteCountBarChart.colorAccessor(function (data) { return data.key; })
+        .colors(function (data) {
+          return colorSchema(siteColors, data);
+        });
       // Boxplot example here
       //     bp01
       //     .width(320)
@@ -749,7 +763,7 @@
           return colorSchema(speciesColors, data);
         });
 
-      
+
 
       dataCount
         .dimension(ndx)
@@ -806,11 +820,13 @@
             // marker.bindPopup("<p>" + name + " " + loc.brewery_city + " " + loc.brewery_state + "</p>");
             // marker.bindPopup("<p>" + name + " " + d["species"] + "</p>");
 
-            marker.bindPopup("species: " + species + "<br>" +
-              "Sex: " + sex + "<br>" +
+            marker.bindPopup(
+              // "species: " + species + "<br>" +
+              // "Sex: " + sex + "<br>" +
               "Locality: " + locality + "<br>" +
-              "Elevation: " + elevation + "<br>" +
-              "tHbcorr: " + tHbcorr + "<br>");
+              "Elevation: " + elevation + "<br>" 
+              // +"tHbcorr: " + tHbcorr + "<br>"
+              );
 
             birdMarkers.addLayer(marker);
           });
@@ -824,8 +840,8 @@
         dc.renderAll();
       });
 
-      d3.selectAll('a#year').on('click', function () {
-        yearChart.filterAll();
+      d3.selectAll('a#Sex').on('click', function () {
+        sexChart.filterAll();
         dc.redrawAll();
       });
 
@@ -883,6 +899,13 @@
       });
     }
 
+    // Prevent default behavior when certain links clicked
+    $('noDefault').click(function (e) {
+      // Special stuff to do when this link is clicked...
+
+      // Cancel the default action
+      e.preventDefault();
+    });
   </script>
 </body>
 

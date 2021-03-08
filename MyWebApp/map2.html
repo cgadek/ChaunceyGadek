@@ -324,7 +324,7 @@
 
       let elevColors = [{ 'value': 'high', 'color': '#fed976' }, { 'value': 'low', 'color': '#e31a1c' }, { 'value': 'mid', 'color': '#feb24c' }];
       
-      // Set site colors
+      // Set site colors to color site by elevation (hence the redundancy)
       let siteColors = [{ 'value': '3', 'color': '#e31a1c' },{ 'value': '8', 'color': '#e31a1c' }, { 'value': '11', 'color': '#e31a1c' }, 
       { 'value': '12', 'color': '#e31a1c' }, { 'value': '13', 'color': '#e31a1c' }, { 'value': '17', 'color': '#e31a1c' }, { 'value': '19', 'color': '#e31a1c' },
       { 'value': '21', 'color': '#e31a1c' }, { 'value': '24', 'color': '#e31a1c' }, { 'value': '25', 'color': '#e31a1c' }, { 'value': '29', 'color': '#e31a1c' }, 
@@ -900,12 +900,10 @@
     }
 
     // Prevent default behavior when certain links clicked
-    $('noDefault').click(function (e) {
-      // Special stuff to do when this link is clicked...
-
-      // Cancel the default action
-      e.preventDefault();
-    });
+    // var myLink = document.querySelector('.mapLink')
+    // myLink.addEventListener('click', function (e) {
+    //   e.preventDefault()
+    // })
   </script>
 </body>
 

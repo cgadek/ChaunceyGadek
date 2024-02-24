@@ -64,19 +64,19 @@ p {
 }
 
 .bg-2 {
-    background-color: #dad3c2;
+    background-color: #e6f1f5;
     /* light gray */
     color: #302e2e;
 }
 
 .bg-3 {
-    background-color: #a8b8c2;
+    background-color: #d7dae0;
     /* White */
     color: #555555;
 }
 
 .bg-4 {
-    background-color: #c6e3ec;
+    background-color: #e9edf5;
     /* Black Gray */
     color: rgb(78, 75, 75);
 }
@@ -89,7 +89,7 @@ p {
 }
 
 .bg-5 {
-    background-color: #dfdffa;
+    background-color: #e6e7eb;
     /* Black Gray */
     color: rgb(54, 53, 63);
 }
@@ -158,12 +158,12 @@ p {
 }
 
 #citations {
-    font: 12px Spartan;
+    font: 14px Spartan;
     color: #1b1b1b;
     line-height: 2;
     text-align: left;
-    margin-left: 10px ;
-    margin-right: 10px ;
+    margin-left: 100px ;
+    margin-right: 100px ;
 }
 
 .center {
